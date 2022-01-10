@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    
+    <body>
+<div class="row">
+<div class="col-md-3"></div>
+<div class="col-md-3" id="app"></div>>
+<label for="texte">Entrez votre texte ici</label><br>
+<textarea id="texte" name="texte" v-binding="contenu_texte"></textarea><br>
+</div>
+<div class="col-md-3"></div>
+</div>
+<script>
+new Vue({
+el: "#app",
+data: {
+contenu_texte
+}
+})
+</script>
+</body>
+</html>
